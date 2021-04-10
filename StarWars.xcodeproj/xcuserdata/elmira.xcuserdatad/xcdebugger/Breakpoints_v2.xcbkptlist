@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "AC11FB5C-2352-4595-9790-D059805D3FE5"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E2D72EE6-AE22-4BED-AFA3-1C92FE5617AA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "StarWars/Controllers/ElementsTableViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "ElementsTableViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "E2D72EE6-AE22-4BED-AFA3-1C92FE5617AA - 8ac5574f01027710"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "StarWars.ElementsTableViewController.sentButtonTitle.getter : Swift.Optional&lt;Swift.String&gt;"
+                  moduleName = "StarWars"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/elmira/Desktop/ios-apps/StarWars/StarWars/Controllers/ElementsTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "139">
+               </Location>
+               <Location
+                  uuid = "E2D72EE6-AE22-4BED-AFA3-1C92FE5617AA - efc1e6107c94070c"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "StarWars.ElementsTableViewController.sentButtonTitle.setter : Swift.Optional&lt;Swift.String&gt;"
+                  moduleName = "StarWars"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/elmira/Desktop/ios-apps/StarWars/StarWars/Controllers/ElementsTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "174">
+               </Location>
+               <Location
+                  uuid = "E2D72EE6-AE22-4BED-AFA3-1C92FE5617AA - 52e437fc4f3b116f"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "StarWars.ElementsTableViewController.sentButtonTitle.modify : Swift.Optional&lt;Swift.String&gt;"
+                  moduleName = "StarWars"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/elmira/Desktop/ios-apps/StarWars/StarWars/Controllers/ElementsTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "18">
+               </Location>
+               <Location
+                  uuid = "E2D72EE6-AE22-4BED-AFA3-1C92FE5617AA - 9e4d501bb4e647e5"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "StarWars.ElementsTableViewController.sentButtonTitle.modify : Swift.Optional&lt;Swift.String&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "StarWars"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/elmira/Desktop/ios-apps/StarWars/StarWars/Controllers/ElementsTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  uuid = "E2D72EE6-AE22-4BED-AFA3-1C92FE5617AA - accb95370e307f08"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "StarWars.ElementsTableViewController.init(style: __C.UITableViewStyle) -&gt; StarWars.ElementsTableViewController"
+                  moduleName = "StarWars"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/elmira/Desktop/ios-apps/StarWars/StarWars/Controllers/ElementsTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "433">
+               </Location>
+               <Location
+                  uuid = "E2D72EE6-AE22-4BED-AFA3-1C92FE5617AA - 49f1c0e08007cc2"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "StarWars.ElementsTableViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; StarWars.ElementsTableViewController"
+                  moduleName = "StarWars"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/elmira/Desktop/ios-apps/StarWars/StarWars/Controllers/ElementsTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "514">
+               </Location>
+               <Location
+                  uuid = "E2D72EE6-AE22-4BED-AFA3-1C92FE5617AA - e443d9210e1518f2"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "StarWars.ElementsTableViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;StarWars.ElementsTableViewController&gt;"
+                  moduleName = "StarWars"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/elmira/Desktop/ios-apps/StarWars/StarWars/Controllers/ElementsTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "416">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
