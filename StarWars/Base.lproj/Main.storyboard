@@ -213,14 +213,21 @@
                                     <constraint firstItem="qyJ-GT-4hO" firstAttribute="top" secondItem="g4r-Of-XQ7" secondAttribute="top" id="uVd-Lm-Lyp"/>
                                 </constraints>
                             </stackView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="tgf-4g-Zde">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="774"/>
+                            </activityIndicatorView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="7cZ-Jq-q99"/>
                         <color key="backgroundColor" name="DarkGray"/>
                         <constraints>
                             <constraint firstItem="g4r-Of-XQ7" firstAttribute="top" secondItem="7cZ-Jq-q99" secondAttribute="top" id="2xM-Cw-WPy"/>
                             <constraint firstItem="g4r-Of-XQ7" firstAttribute="leading" secondItem="QtH-dr-D9f" secondAttribute="leading" id="3zJ-Ln-VgE"/>
+                            <constraint firstItem="tgf-4g-Zde" firstAttribute="top" secondItem="7cZ-Jq-q99" secondAttribute="top" id="DKc-hR-S9n"/>
                             <constraint firstItem="7cZ-Jq-q99" firstAttribute="bottom" secondItem="g4r-Of-XQ7" secondAttribute="bottom" id="UhL-0w-o04"/>
+                            <constraint firstItem="tgf-4g-Zde" firstAttribute="leading" secondItem="7cZ-Jq-q99" secondAttribute="leading" id="gEL-Wl-Q7P"/>
+                            <constraint firstItem="7cZ-Jq-q99" firstAttribute="bottom" secondItem="tgf-4g-Zde" secondAttribute="bottom" id="h9u-2T-oHH"/>
                             <constraint firstAttribute="trailing" secondItem="g4r-Of-XQ7" secondAttribute="trailing" id="vhj-Z0-zrD"/>
+                            <constraint firstItem="7cZ-Jq-q99" firstAttribute="trailing" secondItem="tgf-4g-Zde" secondAttribute="trailing" id="z60-Qz-ufa"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="7a5-1Y-2BJ"/>

@@ -10,21 +10,42 @@ import UIKit
 class ElementsTableViewController: UITableViewController {
     
     var netWorkViewController = NetWorkViewController()
-    
+    var spinner = UIActivityIndicatorView(style: .large)
     var elements: [Any] = []
-
     var sentButtonTitle: String?
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         navigationController?.navigationBar.barTintColor = UIColor(named: "DarkGray")
         netWorkViewController.delegate = self
+        
+        spinner.translatesAutoresizingMaskIntoConstraints = false
+        tableView.addSubview(spinner)
+        spinner.centerXAnchor.constraint(equalTo: tableView.centerXAnchor).isActive = true
+        spinner.centerYAnchor.constraint(equalTo: tableView.centerYAnchor).isActive = true
+        spinner.startAnimating()
+        
+        self.refreshControl = UIRefreshControl()
+        refreshControl?.tintColor = .white
+        if #available(iOS 10.0, *) {
+            tableView.refreshControl = refreshControl
+        } else {
+            tableView.addSubview(refreshControl!)
+        }
+        doSomething()
+        refreshControl?.addTarget(self, action: #selector(doSomething), for: .valueChanged)
+        
+      //  tableView.reloadData()
+    }
+    @objc func doSomething (){
         if let sentTitle = sentButtonTitle{
             title = sentTitle.uppercased()
-           netWorkViewController.fetchList(name: sentTitle)
-           netWorkViewController.sentEntity = sentButtonTitle
+            netWorkViewController.fetchList(name: sentTitle)
+            netWorkViewController.sentEntity = sentButtonTitle
         }
+        tableView.reloadData()
+        refreshControl?.endRefreshing()
+        spinner.stopAnimating()
     }
 
     // MARK: - Table view data source
@@ -73,6 +94,7 @@ extension ElementsTableViewController: NetWorkViewControllerDelegate {
         DispatchQueue.main.async {
             self.elements = data
             self.tableView.reloadData()
+           // self.spinner.stopAnimating()
         }
     }
     

@@ -10,7 +10,7 @@ import UIKit
 class ElementViewController: UIViewController {
     
     var netWork = NetWorkViewController()
-    
+    var spinner = UIActivityIndicatorView(style: .large)
     var element: Any!
     var sentButtonTitle: String?
     var elemintID: Int?
@@ -25,11 +25,15 @@ class ElementViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+      //  spinner.translatesAutoresizingMaskIntoConstraints = false
+        spinner.startAnimating()
+        view.addSubview(spinner)
         netWork.delegate = self
         view.backgroundColor = UIColor(named: "DarkGray")
         table.dataSource = self
         getArray()
         getImage()
+        spinner.stopAnimating()
     }
     
     func getImage(){

@@ -21,8 +21,6 @@ class NetWorkViewController: UIViewController {
     var data: [Any] = []
     
     func fetchList (name: String) {
-        //   let urlString = "\(baseUrl)\(name)/?page=2"
-        //  performeRequest(urlString: urlString)
         sentEntity = name
         let strings: [String] = [
             "\(baseUrl)\(name)/?page=1",
@@ -62,7 +60,6 @@ class NetWorkViewController: UIViewController {
                 }
                 if let safeData = data {
                     if let entityData = self.parseJson( data: safeData) {//entData is an array of 10 elements
-                        //self.delegate?.didUpdateData(self, data: entityData )
                         for el in entityData {
                             if el != nil {
                                 self.data.append(el)
